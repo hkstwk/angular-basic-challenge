@@ -20,7 +20,7 @@ import {GameService} from "./game-control/game.service";
     BrowserModule,
     FormsModule,
   ],
-  providers: [GameService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

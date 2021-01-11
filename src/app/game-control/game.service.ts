@@ -1,7 +1,7 @@
 import {Subject} from "rxjs";
 import {Injectable, OnDestroy} from "@angular/core";
 
-@Injectable({provideIn: 'root'})
+@Injectable({providedIn: 'root'})
 export class GameService implements OnDestroy {
   intervalFired: Subject<number> = new Subject<number>();
 
