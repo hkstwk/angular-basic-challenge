@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { GameControlComponent } from './game-control/game-control.component';
 import { OddComponent } from './game-control/odd/odd.component';
 import { EvenComponent } from './game-control/even/even.component';
+import {GameService} from "./game-control/game.service";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { EvenComponent } from './game-control/even/even.component';
     BrowserModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [GameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
