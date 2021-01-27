@@ -1,5 +1,5 @@
-import {Subject} from "rxjs";
-import {Injectable, OnDestroy} from "@angular/core";
+import {Subject} from 'rxjs';
+import {Injectable, OnDestroy} from '@angular/core';
 
 @Injectable({providedIn: 'root'})
 export class GameService implements OnDestroy {
